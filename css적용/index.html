@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>자기 소개 페이지ft.css</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="container">
+            <header>
+                <h1>자기소개 페이지</h1>
+                <nav>
+                <ul>
+                    <li> <a href = "#">홈</a> </li>
+                    <li> <a href = "#">소개</a> </li>
+                    <li> <a href = "#">꿈</a> </li>
+                    <li> <a href = "#">취미</a> </li>
+                    <li> <a href = "#">시간표</a> </li>
+                </ul>
+             </nav>
+                
+            </header>
+        </div>
+
+        <section id="about">
+            <h2>반가워요!</h2>
+            <p>저는 순천향대학교 컴퓨터소프트웨어공학과에 재학중인 24학번 김영진입니다.</p>
+        
+        </section>
+
+
+        <section id = "hobbies-dreams">
+        <div id="dream">
+            <h3>꿈</h3>
+            <p>저의 꿈은 웹프로그래머 입니다.</p>
+        </div>
+        
+        <div id="hobby">
+            <h3>취미</h3>
+            <p>저의 취미는 게임이며 스팀게임을 자주 플레이합니다.</p>
+        </div>
+
+        </section>
+
+
+    <section id="timetable">
+        <div id="table">
+            <h2>시간표</h2>
+            <table >
+                <tr>
+                    <td>시간/요일</td>
+                    <td>월요일</td>
+                    <td>화요일</td>
+                    <td>수요일</td>
+                    <td>목요일</td>
+                    <td>금요일</td>
+                </tr>
+
+                <tr><td>09:00~10:00</td>
+                  
+                    
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">웹 프로그래밍</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터 개론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                   
+                   <td></td>
+
+                   <td>
+                        <button class="info-button" onclick="toggleInfo(this)">글쓰기</button>
+                        <div class="extra-info">
+                            U629
+                        </div>
+                    </td>
+
+
+                   </td>
+                   
+                </tr>
+
+                <tr>
+                    <td>10:00~11:00</td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">웹 프로그래밍</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터 개론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">글쓰기</button>
+                        <div class="extra-info">
+                            U629
+                        </div>
+                    </td>
+
+                    <td></td>
+                    
+                </tr>
+
+                <tr>
+                    <td>11:00~12:00</td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">웹 프로그래밍</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">파이썬 이론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">글쓰기</button>
+                        <div class="extra-info">
+                            U629
+                        </div>
+                    </td>
+
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>12:00~13:00</td>
+                    <td></td>
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">파이썬 이론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>13:00~14:00</td>
+                    <td></td>
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">파이썬 이론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터코딩과문제해결</button>
+                        <div class="extra-info">
+                            9115
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>14:00~15:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">일반수학</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터코딩과문제해결</button>
+                        <div class="extra-info">
+                            9115
+                        </div>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>15:00~16:00</td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터 개론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td></td>
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">일반수학</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터코딩과문제해결</button>
+                        <div class="extra-info">
+                            9115
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>16:00~17:00</td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">컴퓨터 개론</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">파이썬실습</button>
+                        <div class="extra-info">
+                            M518
+                        </div>
+                    </td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">일반수학</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td>17:00~18:00</td>
+                    <td></td>
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">전공탐색</button>
+                        <div class="extra-info">
+                            M503
+                        </div>
+                    </td>
+
+
+                    <td>
+                        <button class="info-button" onclick="toggleInfo(this)">파이썬실습</button>
+                        <div class="extra-info">
+                            M518
+                        </div>
+                    </td>
+
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+
+    </body>
+</html>
